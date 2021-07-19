@@ -1,0 +1,31 @@
+:root {
+    --primary-color:#7779FF;
+    --secondary-color: #F46188;
+  --third-color: #642AB6;
+  --forth-color: #491D7F;
+}
+
+body {
+    background-color: var(--primary-color)!important;
+}
+
+h1{
+    background: var(--secondary-color);
+    padding: 40px;
+    color: var(--forth-color);
+}
+div .card{
+    display: flex;
+    justify-content: space-evenly;
+    background: var(--secondary-color);
+    border-radius: 15px;
+    flex:1;
+    padding: 10px;
+}
+img{
+    margin-top: 10px;
+    padding: 20px;
+}
+footer {
+    margin: 100px;
+}
