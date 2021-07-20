@@ -44,7 +44,7 @@ p{
 .text {
     color: var(--forth-color);
     font-family: 'Bebas Neue', cursive;
-    font-size: 20px;
+    font-size: 24px;
 }
 div .link-button {
     display:flex;
@@ -77,26 +77,39 @@ div .quiz:hover{
     border-radius: 15px;
 }
 form {
+    
     font-family: 'Poppins', sans-serif;
 }
 h3{
     padding: 15px;
     font-size: 20px !important;
 }
-input[type="submit"] {
-   text-align: center;
+
+.button {
+    display: block;
+    margin: 0 auto;
     background: var(--primary-color);
     border: 0;
     color: var(--forth-color);
     padding: 10px 12px;
     border-radius: 15px;
     font-family: 'Poppins', sans-serif;
+    box-shadow: var(--box-shadow);
+}
+.link{
+    text-align: center;
+    padding: 20px;
+
 }
 div .leave{
     color: var(--forth-color);
     text-decoration: none;
   text-transform: capitalize;
   
+}
+div .leave:hover {
+text-decoration: underline;
+color: var(--third-color);
 }
 div .card{
     display: flex;
