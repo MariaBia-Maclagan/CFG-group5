@@ -1,9 +1,9 @@
 :root {
-    --primary-color:#7779FF;
-    --secondary-color: #F46188;
-  --third-color: #642AB6;
-  --forth-color: #491D7F;
-  --box-shadow:5px 5px 20px 5px rgba(0,0,0,0.33);
+--primary-color:#7779FF;
+--secondary-color: #F46188;
+--third-color: #642AB6;
+--forth-color: #491D7F;
+--box-shadow:5px 5px 20px 5px rgba(0,0,0,0.33);
 }
 
 body {
@@ -75,6 +75,10 @@ div .quiz:hover{
     padding: 2.6rem;
     box-shadow: var(--box-shadow);
     border-radius: 15px;
+}
+#results{
+background: var(--primary-color);
+font-family: 'Bebas Neue', cursive;
 }
 form {
     
